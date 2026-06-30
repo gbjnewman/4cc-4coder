@@ -618,6 +618,7 @@ default_4coder_initialize(Application_Links *app, String_Const_u8_Array file_nam
 "The change log can be found in CHANGES.txt\n" \
 "\n"
     print_message(app, string_u8_litexpr(M));
+    print_message(app, string_u8_litexpr("GBJ custom layer loaded.\n"));
 #undef M
     
     Scratch_Block scratch(app);
