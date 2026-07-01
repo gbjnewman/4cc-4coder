@@ -22,7 +22,6 @@ keys_global = {
     { "execute_any_cli",               "Z", "Alt" },
     { "execute_previous_cli",          "Z", "Alt", "Shift" },
     { "command_lister",                "X", "Alt" },
-    { "command_lister",                "L", "Alt" },
     { "project_command_lister",        "X", "Alt", "Shift" },
     { "quick_swap_buffer",             "BackwardSlash", "Alt" },
     { "jump_to_last_point",            "P", "Control" },
@@ -53,6 +52,10 @@ keys_file = {
     { "move_down",              "Down" },
     { "move_left",              "Left" },
     { "move_right",             "Right" },
+    { "move_up",                "K", "Alt" },
+    { "move_down",              "J", "Alt" },
+    { "move_left",              "H", "Alt" },
+    { "move_right",             "L", "Alt" },
     { "seek_end_of_line",       "End" },
     { "seek_beginning_of_line", "Home" },
     { "page_up",                "PageUp" },
@@ -138,4 +141,3 @@ keys_code = {
     { "write_zero_struct",          "0", "Control" },
     { "jump_to_definition_at_cursor", "W", "Control" },
 };
-
