@@ -48,6 +48,9 @@
 #include "4coder_lister_base.h"
 #include "4coder_clipboard.h"
 #include "4coder_default_framework.h"
+
+#include "gbj/gbj_custom.h"
+
 #include "4coder_config.h"
 #include "4coder_auto_indent.h"
 #include "4coder_search.h"
@@ -111,6 +114,9 @@
 #include "4coder_config.cpp"
 #include "4coder_dynamic_bindings.cpp"
 #include "4coder_default_framework.cpp"
+
+#include "gbj/gbj_custom.cpp"
+
 #include "4coder_clipboard.cpp"
 #include "4coder_lister_base.cpp"
 #include "4coder_base_commands.cpp"
