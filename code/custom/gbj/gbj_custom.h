@@ -11,4 +11,7 @@ global GBJ_Mode gbj_mode = GBJMode_Insert;
 function String_Const_u8 gbj_mode_name(void);
 function void gbj_print_startup_message(Application_Links *app);
 
+CUSTOM_COMMAND_SIG(gbj_enter_normal_mode);
+CUSTOM_COMMAND_SIG(gbj_enter_insert_mode);
+
 #endif

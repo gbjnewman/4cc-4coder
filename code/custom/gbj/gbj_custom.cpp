@@ -22,3 +22,17 @@ gbj_print_startup_message(Application_Links *app){
     print_message(app, string_u8_litexpr("GBJ custom layer loaded.\n"));
     print_message(app, string_u8_litexpr("GBJ mode: INSERT\n"));
 }
+
+CUSTOM_COMMAND_SIG(gbj_enter_normal_mode)
+CUSTOM_DOC("Enter GBJ normal mode.")
+{
+    gbj_mode = GBJMode_Normal;
+    print_message(app, string_u8_litexpr("GBJ mode: NORMAL\n"));
+}
+
+CUSTOM_COMMAND_SIG(gbj_enter_insert_mode)
+CUSTOM_DOC("Enter GBJ insert mode.")
+{
+    gbj_mode = GBJMode_Insert;
+    print_message(app, string_u8_litexpr("GBJ mode: INSERT\n"));
+}

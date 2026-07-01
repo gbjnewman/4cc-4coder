@@ -55,6 +55,10 @@ setup_default_mapping(Mapping *mapping, i64 global_id, i64 file_id, i64 code_id)
     Bind(project_fkey_command, KeyCode_F16);
     
     SelectMap(file_id);
+
+    Bind(gbj_enter_normal_mode, KeyCode_Escape);
+    Bind(gbj_enter_insert_mode, KeyCode_I, KeyCode_Alt);
+
     Bind(delete_char,            KeyCode_Delete);
     Bind(backspace_char,         KeyCode_Backspace);
     Bind(move_up,                KeyCode_Up);
